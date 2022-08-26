@@ -158,33 +158,31 @@ export const ListaCategories = () => {
                     </tbody>
                 </Table>
             </div>
-            <div className="Container">
+            {/* Listagem de Categorias */}
+            
+            {/* <div className="Container">
             { page !== 1
                 ? <Button type="button" onClick={ () => getCategories(1)}>Primeira</Button>
                 : <Button type="button" disabled>Início</Button>
             }{" "}
             
-            {/* antes da pagina que o usuario está */}
             { page !== 1
                 ? <Button type="button" onClick={ () => getCategories(page - 1)}>{page - 1}</Button>
                 : ""
             }{" "}
 
-            {/* Página Atual */}
             <Button type="button" disabled>{page}</Button>{" "}
 
-            {/* Página Seguinte da Atual */}
             { page !== lastPage
                 ? <Button type="button" onClick={ () => getCategories(page + 1)}>{page + 1}</Button>
                 : ""
             }{" "}
 
-            {/* Ultima Página */}
             { page !== lastPage 
                 ? <Button type="button" onClick={ () => getCategories(lastPage)}>Ultima</Button>
                 : <Button type="button" disabled>Fim</Button>
             }
-            </div>
+            </div> */}
         </div>
     )
 }
