@@ -1,0 +1,41 @@
+.buttonNew{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.userCenter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.spaceFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noLink{
+    margin-right: 20px;
+}
+
+.onLink{
+    text-decoration: none;
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+}
